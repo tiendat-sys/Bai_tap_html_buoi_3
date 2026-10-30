@@ -1,0 +1,48 @@
+nav a:hover{
+    color: red;
+    background-color: gray;
+}
+nav a:first-child{
+    font-weight: bold;
+}
+nav a:last-child{
+    color: red;
+}
+nav a:not(:last-child)::after{
+    content: " |";
+}
+ul li:nth-child(odd){
+    background-color: lightgray;
+}
+ul li:nth-child(even){
+    background-color: white;
+}
+ul li:nth-child(3){
+    color: blue;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+}
+ul li::before{
+    content: "✔ ";
+    margin-right: 5px;
+}
+ul li:hover{
+    font-style: italic ;
+}
+p::first-letter{
+    font-size: 3em;
+    color: red;
+}
+p::first-line{
+    text-transform: uppercase;
+}
+input::placeholder{
+    color: gray;
+    font-style: italic;
+}
+input:focus{
+    outline: none;
+    border-color: blue;
+}

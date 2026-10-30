@@ -1,0 +1,24 @@
+Thẻ body:
+    Khoảng cách bên ngoài: 8px ở cả 4 cạnh.
+    Khoảng cách bên trong: 0px.
+    Kiểu hiển thị: block.
+
+Tiêu đề h1:
+    Cỡ chữ: 2em.
+    Khoảng cách bên ngoài: Trên/Dưới là 0.67em, Trái/Phải là 0px.
+    Kiểu hiển thị: block.
+
+Đoạn văn p:
+    Cỡ chữ: 1em.
+    Khoảng cách bên ngoài: Trên/Dưới là 1em, Trái/Phải là 0px.
+    Kiểu hiển thị: block.
+
+Link a:
+    Cỡ chữ: Kế thừa từ phần tử cha.
+    Khoảng cách: 0px.
+    Kiểu hiển thị: inline.
+
+Danh sách ul:
+    Khoảng cách bên ngoài: Trên/Dưới là 1em.
+    Khoảng cách bên trong: Bên trái là 40px.
+    Kiểu hiển thị: block.

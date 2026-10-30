@@ -1,0 +1,8 @@
+2.Link "Xem chi tiết" bên trong thẻ: không tự đặt màu, mà lấy lại đúng màu của phần tử cha. Quan sát màu thay đổi thế nào.
+    Hiện tượng: thẻ a chuyển sang màu xanh dương
+3.Tiêu đề h3 bên trong thẻ: đưa màu chữ về giá trị gốc ban đầu của CSS. Giải thích vì sao nó không còn màu xanh.
+    Hiện tượng: Màu chữ của h3 chuyển thành màu đen 
+    Giải thích: initial đưa thuộc tính về giá trị mặc định của CSS 
+4. Sau khi đã xóa mặc định ở yêu cầu 1, cho danh sách ul hiển thị lại dấu chấm đầu dòng bằng cách đưa kiểu đánh dấu về giá trị gốc. Điều gì xảy ra? Vì sao?
+    Hiện tượng: Dấu chấm tròn ko xuất hiện 
+    Giải thích: Ở yêu cầu 1 phần B đặt padding: 0 cho toàn bộ trang
